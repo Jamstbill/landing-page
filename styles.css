@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Mukta:wght@500&display=swap');
+
+body{
+    box-sizing: border-box;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Mukta', sans-serif;
+}
+
+.topSection{
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+.topSection{
+    background-color: #1F2937;
+}
+.topHero{
+    max-width: 55%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 70px;
+}
+.header h1{
+    color: #F9FAF8;
+    font-size: 24px;
+}
+.header ul{
+    list-style-type: none;
+    display: flex;
+    gap: 10px;
+    font-size: 18px;;
+}
+
+.heroSection{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 100px;
+}
+.heroSection h2{
+    font-size: 48px;
+    line-height: 1;
+    margin-bottom: 0;
+}
+.heroText{
+    max-width: 367px;
+    width: 100%;
+}
+.heroImage{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 70px;
+    background-color: gray;
+}
+.heroSection button{
+    background-color: #3882F6;
+    border: none;
+    color: white;
+    padding: 10px 30px 10px 30px;
+    border-radius: 10px;
+    font-size: 15px;
+    font-weight: bold;
+    cursor: pointer;
+}
